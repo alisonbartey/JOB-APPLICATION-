@@ -15,66 +15,7 @@
   <!-- Application Form -->
   <main>
     <form id="jobApplicationForm" 
-      action="<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apply Now - Administrative Support</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <h1>Apply for Administrative Support Role</h1>
-  </header>
-
-  <!-- Application Form -->
-  <main>
-    <form id="jobApplicationForm" 
-      action="https://job-application.onrender.com/apply" 
-      method="POST" 
-      enctype="multipart/form-data">
-
-      <!-- Name -->
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="name" required>
-
-      <!-- Email -->
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="email" required>
-
-      <!-- Resume -->
-      <label for="resume">
-        Upload Resume (PDF, DOC, DOCX) <small>(Max 2MB)</small>
-      </label>
-      <input type="file" name="resume" id="resume" accept=".pdf,.doc,.docx" required>
-
-      <!-- Cover Letter -->
-      <label for="coverletter">Cover Letter (Optional)</label>
-      <textarea id="coverletter" name="coverletter" rows="5"></textarea>
-
-      <!-- Submit -->
-      <button type="submit">Submit Application</button>
-    </form>
-  </main>
-
-  <!-- Preview Modal -->
-  <div id="previewModal" class="modal">
-    <div class="modal-box">
-      <h2>Review Your Application</h2>
-      <div id="previewContent"></div>
-      <div class="modal-actions">
-        <button id="confirmSubmit">✅ Confirm</button>
-        <button id="cancelSubmit">❌ Cancel</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Script -->
-  <script src="script.js"></script>
-</body>
-</html>/apply" 
+      action="https://job-application-backend-frdc.onrender.com/apply" 
       method="POST" 
       enctype="multipart/form-data">
 
